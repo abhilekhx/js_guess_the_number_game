@@ -1,13 +1,8 @@
-console.log('hello');
-// alert('yoo')
+// Functions
 
-// variables
-var b = 'smoothie';
-console.log(b);
+function greeting(name) {
+    var result = 'Hello ' + name 
+    console.log(result)
+}
 
-var someNum = 45;
-
-
-var age = prompt('What is your age?');
-
-document.getElementById('someText').innerHTML = age;
+greeting('Abhilekh')
