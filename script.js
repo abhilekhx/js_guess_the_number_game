@@ -37,3 +37,18 @@ let truth = false; // boolean
 let colors = ['red','green','blue'] //array
 let random // undefined
 let nothing = null // null
+
+// String methods in JS
+let fruit = 'banana'
+let moreFruits = 'apple\norange'
+console.log(moreFruits)
+console.log(moreFruits.length)
+
+console.log(fruit.indexOf('nan'))
+console.log(fruit.slice(2,5))
+console.log(fruit.replace('ban','123'))
+console.log(fruit.toUpperCase())
+console.log(fruit.charAt(2))
+console.log(fruit[2])
+console.log(fruit.split('a'))
+console.log(fruit.split(''))
